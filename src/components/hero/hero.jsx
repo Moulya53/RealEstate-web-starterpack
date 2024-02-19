@@ -19,8 +19,8 @@ export const hero = () => {
           </div>
 
           <div className="flexColStart hero-des">
-            <span>Find a variety of properties that suit you very easily</span>
-            <span>Forget all difficulties in finding a residence for you</span>
+            <span className="secondaryText">Find a variety of properties that suit you very easily</span>
+            <span className="secondaryText">Forget all difficulties in finding a residence for you</span>
           </div>
 
           <div className="flexCentre search-bar">
@@ -30,7 +30,7 @@ export const hero = () => {
           </div>
 
           <div className="flexCentre stats">
-            <div className="flexColStart stat">
+            <div className="flexColCentre stat">
               <span>
                 <CountUp start={8800} end={9000} duration={4}/>
                 <span>+</span>
@@ -38,7 +38,7 @@ export const hero = () => {
               <span className="secondaryText">Premiun Product</span>
             </div>
 
-            <div className="flexColStart stat">
+            <div className="flexColCentre stat">
               <span>
                 <CountUp start={1950} end={2000} duration={4}/>
                 <span>+</span>
@@ -46,7 +46,7 @@ export const hero = () => {
               <span className="secondaryText">Happy Coustomers</span>
             </div>
 
-            <div className="flexColStart stat">
+            <div className="flexColCentre stat">
               <span>
                 <CountUp end={28} />
                 <span>+</span>
