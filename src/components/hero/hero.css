@@ -10,31 +10,31 @@
   align-items: flex-end;
 }
 
-.orange-circle{
-    height: 4rem;
-    width: 4rem;
-    background: var(--orange-gradient);
-    border-radius: 999px;
-    position: absolute;
-    right: 28%;
-    top: -10%;
-    z-index: -1;
+.orange-circle {
+  height: 4rem;
+  width: 4rem;
+  background: var(--orange-gradient);
+  border-radius: 999px;
+  position: absolute;
+  right: 28%;
+  top: -10%;
+  z-index: -1;
 }
 
 /*left side*/
-.hero-left{
-    gap: 3rem;
+.hero-left {
+  gap: 3rem;
 }
 
-.hero-title{
-    position: relative;
-    z-index: 1;
+.hero-title {
+  position: relative;
+  z-index: 1;
 }
 
-.hero-title>h1{
-    font-weight: 600;
-    font-size: 3.8rem;
-    line-height: 4rem;
+.hero-title > h1 {
+  font-weight: 600;
+  font-size: 3.8rem;
+  line-height: 4rem;
 }
 
 /*right side*/
