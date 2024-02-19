@@ -1,7 +1,7 @@
 import React from "react";
 import "./hero.css";
 import { HilocationMarker } from "react-icons/hi";
-import CountUp from "react-countup/build/CountUp";
+import CountUp from "react-countup";
 
 export const hero = () => {
   return (
@@ -32,9 +32,26 @@ export const hero = () => {
           <div className="flexCentre stats">
             <div className="flexColStart stat">
               <span>
-                <CountUp />
+                <CountUp start={8800} end={9000} duration={4}/>
+                <span>+</span>
               </span>
-              <span>Premiun Product</span>
+              <span className="secondaryText">Premiun Product</span>
+            </div>
+
+            <div className="flexColStart stat">
+              <span>
+                <CountUp start={1950} end={2000} duration={4}/>
+                <span>+</span>
+              </span>
+              <span className="secondaryText">Happy Coustomers</span>
+            </div>
+
+            <div className="flexColStart stat">
+              <span>
+                <CountUp end={28} />
+                <span>+</span>
+              </span>
+              <span className="secondaryText">Award Winning</span>
             </div>
           </div>
         </div>
