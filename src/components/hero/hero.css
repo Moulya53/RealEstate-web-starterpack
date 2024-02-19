@@ -47,6 +47,11 @@
     justify-content: space-between;
   }
 
+  .search-bar>input{
+    border: none;
+    outline: none;
+  }
+
 /*right side*/
 .image-container {
   width: 30rem;
