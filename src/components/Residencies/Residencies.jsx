@@ -7,6 +7,7 @@ import { sliderSettings } from "../../utils/common";
 
 export const Residencies = () => {
   return (
+    
     <section className="r-wrapper">
       <div className="paddings innerWidth r-container">
         <div className="f r-head lexColStart">

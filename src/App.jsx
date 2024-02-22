@@ -6,11 +6,11 @@ import { Residencies } from "./components/Residencies/Residencies";
 function App() {
   return (
     <div className="App">
-      <div>
+      {/* <div>
         <div className="white-gradient" />
       <header />
       <hero />
-      </div>
+      </div> */}
       <Residencies/>
     </div>
   );
